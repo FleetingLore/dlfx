@@ -72,8 +72,8 @@
 
   /* ===== 默认文字/背景 ===== */
   --md-default-fg-color: #f0f8ff;
-  --md-default-bg-color: #1a1a3a;
-  --md-code-bg-color: #23232e;
+  --md-default-bg-color: #4a4a50;
+  --md-code-bg-color: #a3aaae;
 
   /* ===== 正文排版 ===== */
   --md-typeset-color: #f0f8ff;
