@@ -14,14 +14,14 @@ STYLE = {"fontsize": 14}
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((3, 0)).label("+", "right")
     d += elm.Line().at((3, 0)).to((0, 0))
 
     d += elm.SourceV().at((0, -2)).to((0, 0)).label("$u_{S1}$")
     d += elm.SourceV().at((0, -4)).to((0, -2)).label("$u_{S2}$")
 
     d += elm.Line().at((0, -4)).to((3, -4))
-    d += elm.Dot(open=True).at((3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((3, -4)).label("-", "right")
 
     d += elm.Arrow().at((1, 0)).to((2, 0)).label("i", "top")
 
@@ -42,13 +42,13 @@ with Drawing(show=False) as d:
 
     base = 6
 
-    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "right")
     d += elm.Line().at((base + 3, 0)).to((base + 0, 0))
 
     d += elm.SourceV().at((base + 0, -4)).to((base + 0, 0)).label("u[S]")
 
     d += elm.Line().at((base + 0, -4)).to((base + 3, -4))
-    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "right")
 
     d += elm.Arrow().at((base + 1, 0)).to((base + 2, 0)).label("i", "top")
 
@@ -89,7 +89,7 @@ with Drawing(show=False) as d:
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((5, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((5, 0)).label("+", "right")
     d += elm.Line().at((5, 0)).to((0, 0))
 
     d += elm.SourceV().at((0, -4)).to((0, 0)).label("u[S]")
@@ -99,7 +99,7 @@ with Drawing(show=False) as d:
     d += elm.Dot(open=False).at((2, -4))
 
     d += elm.Line().at((0, -4)).to((5, -4))
-    d += elm.Dot(open=True).at((5, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((5, -4)).label("-", "right")
 
     d += elm.Arrow().at((3, 0)).to((4, 0)).label("i", "top")
 
@@ -120,13 +120,13 @@ with Drawing(show=False) as d:
 
     base = 8
 
-    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "right")
     d += elm.Line().at((base + 3, 0)).to((base + 0, 0))
 
     d += elm.SourceV().at((base + 0, -4)).to((base + 0, 0)).label("u[S]")
 
     d += elm.Line().at((base + 0, -4)).to((base + 3, -4))
-    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "right")
 
     d += elm.Arrow().at((base + 1, 0)).to((base + 2, 0)).label("i", "top")
 
@@ -167,7 +167,7 @@ with Drawing(show=False) as d:
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((5, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((5, 0)).label("+", "right")
     d += elm.Line().at((5, 0)).to((0, 0))
 
     d += elm.SourceI().at((0, -4)).to((0, 0)).label("i[S]")
@@ -177,7 +177,7 @@ with Drawing(show=False) as d:
     d += elm.Dot(open=False).at((2, -4))
 
     d += elm.Line().at((0, -4)).to((5, -4))
-    d += elm.Dot(open=True).at((5, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((5, -4)).label("-", "right")
 
     d += elm.Arrow().at((3, 0)).to((4, 0)).label("i", "top")
 
@@ -198,13 +198,13 @@ with Drawing(show=False) as d:
 
     base = 8
 
-    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "right")
     d += elm.Line().at((base + 3, 0)).to((base + 0, 0))
 
     d += elm.SourceI().at((base + 0, -4)).to((base + 0, 0)).label("i[S]")
 
     d += elm.Line().at((base + 0, -4)).to((base + 3, -4))
-    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "right")
 
     d += elm.Arrow().at((base + 1, 0)).to((base + 2, 0)).label("i", "top")
 
@@ -245,14 +245,14 @@ with Drawing(show=False) as d:
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((3, 0)).label("+", "right")
     d += elm.Line().at((3, 0)).to((0, 0))
 
     d += elm.SourceI().at((0, -2)).to((0, 0)).label("i[S]")
     d += elm.SourceI().at((0, -4)).to((0, -2)).label("i[S]")
 
     d += elm.Line().at((0, -4)).to((3, -4))
-    d += elm.Dot(open=True).at((3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((3, -4)).label("-", "right")
 
     d += elm.Arrow().at((1, 0)).to((2, 0)).label("i", "top")
 
@@ -273,13 +273,13 @@ with Drawing(show=False) as d:
 
     base = 6
 
-    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "right")
     d += elm.Line().at((base + 3, 0)).to((base + 0, 0))
 
     d += elm.SourceI().at((base + 0, -4)).to((base + 0, -0)).label("i[S]")
 
     d += elm.Line().at((base + 0, -4)).to((base + 3, -4))
-    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "right")
 
     d += elm.Arrow().at((base + 1, 0)).to((base + 2, 0)).label("i", "top")
 
@@ -320,19 +320,19 @@ with Drawing(show=False) as d:
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((5, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((5, 0)).label("+", "right")
     d += elm.Line().at((5, 0)).to((0, 0))
 
     d += elm.SourceV().at((0, -4)).to((0, 0)).label("u[S]")
 
     d += elm.Dot(open=False).at((2, 0))
     d += elm.Line().at((2, 0)).to((2, -1.5))
-    d += Box(w=1, h=1).at((2, -1.5)).label("N ′")
+    d += Box(w=1, h=1).at((2, -1.5)).label("N′")
     d += elm.Line().at((2, -2.5)).to((2, -4))
     d += elm.Dot(open=False).at((2, -4))
 
     d += elm.Line().at((0, -4)).to((5, -4))
-    d += elm.Dot(open=True).at((5, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((5, -4)).label("-", "right")
 
     d += elm.Arrow().at((3, 0)).to((4, 0)).label("i", "top")
 
@@ -353,13 +353,13 @@ with Drawing(show=False) as d:
 
     base = 8
 
-    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "right")
     d += elm.Line().at((base + 3, 0)).to((base + 0, 0))
 
     d += elm.SourceV().at((base + 0, -4)).to((base + 0, 0)).label("u[S]")
 
     d += elm.Line().at((base + 0, -4)).to((base + 3, -4))
-    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "right")
 
     d += elm.Arrow().at((base + 1, 0)).to((base + 2, 0)).label("i", "top")
 
@@ -400,16 +400,16 @@ with Drawing(show=False) as d:
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((3, 0)).label("+", "right")
     d += elm.Line().at((3, 0)).to((0, 0))
 
     d += elm.SourceI().at((0, -2)).to((0, 0)).label("i[S1]")
     d += elm.Line().at((0, -2)).to((0, -2.5))
-    d += Box(w=1, h=1).at((0, -2.5)).label("N ′")
+    d += Box(w=1, h=1).at((0, -2.5)).label("N′")
     d += elm.Line().at((0, -3.5)).to((0, -4))
 
     d += elm.Line().at((0, -4)).to((3, -4))
-    d += elm.Dot(open=True).at((3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((3, -4)).label("-", "right")
 
     d += elm.Arrow().at((1, 0)).to((2, 0)).label("i", "top")
 
@@ -430,13 +430,13 @@ with Drawing(show=False) as d:
 
     base = 6
 
-    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 3, 0)).label("+", "right")
     d += elm.Line().at((base + 3, 0)).to((base + 0, 0))
 
     d += elm.SourceI().at((base + 0, -4)).to((base + 0, 0)).label("i[S]")
 
     d += elm.Line().at((base + 0, -4)).to((base + 3, -4))
-    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 3, -4)).label("-", "right")
 
     d += elm.Arrow().at((base + 1, 0)).to((base + 2, 0)).label("i", "top")
 
@@ -477,7 +477,7 @@ with Drawing(show=False) as d:
 with Drawing(show=False) as d:
     d.config(fontsize=STYLE["fontsize"])
 
-    d += elm.Dot(open=True).at((4.5, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((4.5, 0)).label("+", "right")
     d += elm.Line().at((3, 0)).to((4.5, 0))
     d += elm.Resistor().at((1, 0)).to((3, 0)).label("R", "bottom")
     d += elm.Line().at((0, 0)).to((1, 0))
@@ -485,7 +485,7 @@ with Drawing(show=False) as d:
     d += elm.SourceV().at((0, -4)).to((0, 0)).label("u[S]")
 
     d += elm.Line().at((0, -4)).to((4.5, -4))
-    d += elm.Dot(open=True).at((4.5, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((4.5, -4)).label("-", "right")
 
     d += elm.Arrow().at((3, 0)).to((3.5, 0)).label("i", "top")
 
@@ -493,20 +493,19 @@ with Drawing(show=False) as d:
 
     base = 8
 
-    d += elm.Dot(open=True).at((base + 5, 0)).label("+", "bottom")
+    d += elm.Dot(open=True).at((base + 5, 0)).label("+", "right")
     d += elm.Line().at((base + 5, 0)).to((base + 0, 0))
 
     d += elm.SourceI().at((base + 0, -4)).to((base + 0, 0)).label("i[S]")
 
     d += elm.Dot(open=False).at((base + 2, 0))
-    d += elm.Resistor().at((base + 2, 0)).to((base + 2, -4))
-    d += elm.Line().at((base + 2.5, -2)).to((base + 2.5, -2)).label("R ′", "center")
+    d += elm.Resistor().at((base + 2, 0)).to((base + 2, -4)).label("R′", loc="bottom")
     d += elm.Dot(open=False).at((base + 2, -4))
 
     d += elm.Line().at((base + 0, -4)).to((base + 5, -4))
-    d += elm.Dot(open=True).at((base + 5, -4)).label("-", "top")
+    d += elm.Dot(open=True).at((base + 5, -4)).label("-", "right")
 
-    d += elm.Arrow().at((base + 3, 0)).to((base + 4, 0)).label("i", "top")
+    d += elm.Arrow().at((base + 3, 0)).to((base + 4, 0)).label("i", "right")
 
     d += elm.Line().at((base + 5, -2)).to((base + 5, -2)).label("u", "center")
 
