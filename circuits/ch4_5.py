@@ -248,8 +248,8 @@ with Drawing(show=False) as d:
     d += elm.Dot(open=True).at((3, 0)).label("$+$", "right")
     d += elm.Line().at((3, 0)).to((0, 0))
 
-    d += elm.SourceI().at((0, -2)).to((0, 0)).label("$i_｛S1}$")
-    d += elm.SourceI().at((0, -4)).to((0, -2)).label("$i_｛S2}$")
+    d += elm.SourceI().at((0, -2)).to((0, 0)).label("$i_{S1}$")
+    d += elm.SourceI().at((0, -4)).to((0, -2)).label("$i_{S2}$")
 
     d += elm.Line().at((0, -4)).to((3, -4))
     d += elm.Dot(open=True).at((3, -4)).label("$-$", "right")
@@ -505,7 +505,7 @@ with Drawing(show=False) as d:
     d += elm.Line().at((base + 0, -4)).to((base + 5, -4))
     d += elm.Dot(open=True).at((base + 5, -4)).label("$-$", "right")
 
-    d += elm.Arrow().at((base + 3, 0)).to((base + 4, 0)).label("$i$", "right")
+    d += elm.Arrow().at((base + 3, 0)).to((base + 4, 0)).label("$i$", "top")
 
     d += elm.Line().at((base + 5, -2)).to((base + 5, -2)).label("$u$", "center")
 
