@@ -405,7 +405,7 @@ with Drawing(show=False) as d:
 
     d += elm.SourceI().at((0, -2)).to((0, 0)).label("$i_S$")
     d += elm.Line().at((0, -2)).to((0, -2.5))
-    d += Box(w=1, h=1).at((0, -2.5)).label("$N′$")
+    d += Box(w=1, h=1).at((0, -2.5)).label("$N′$").linewidth(1.5)
     d += elm.Line().at((0, -3.5)).to((0, -4))
 
     d += elm.Line().at((0, -4)).to((3, -4))
@@ -479,7 +479,7 @@ with Drawing(show=False) as d:
 
     d += elm.Dot(open=True).at((4.5, 0)).label("$+$", "right")
     d += elm.Line().at((3, 0)).to((4.5, 0))
-    d += elm.Resistor().at((1, 0)).to((3, 0)).label("$R$", "bottom")
+    d += elm.Resistor().at((1, 0)).to((3, 0)).label("$R$", "top")
     d += elm.Line().at((0, 0)).to((1, 0))
 
     d += elm.SourceV().at((0, -4)).to((0, 0)).label("$u_S$")
